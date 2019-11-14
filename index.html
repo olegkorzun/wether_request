@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Wether</title>
+    <meta charset="utf-8" />
+    <link href="client/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="client/css/style.css" rel="stylesheet" type="text/css">
+    <script src="client/js/server.js" defer></script>
+    <script src="client/js/page.js" defer></script>
+    <script src="client/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card bg-dark text-white">
+                    <img src="client/img/surf.jpg" class="card-img" alt="...">
+                   <div class="card-img-overlay">
+                        <h1 class="card-title">Weather forecast for surfer <br/> in Israel</h5>
+                        <form>
+                            <div class="form-group">
+                                <label for="Select1">Choose a beach for surfing</label>
+                                <select multiple class="form-control" id="Select1">
+                                </select>
+                            </div>
+                            <button type="submit" id="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-7">
+                <h1 id = "h2" >Wether Result</h1>
+                <div class="row">
+                    <div class="col-3">
+                        <p id="date">Date</p>
+                    </div>
+                    <div class="col-3">
+                        <p id="temperature">Temperature</p>
+                    </div>
+                    <div class="col-3">
+                        <p id="windSpeed">Wind Speed</p>
+                    </div>
+                    <div class="col-3">
+                        <p id="goodFor">Good For</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
